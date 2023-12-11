@@ -119,6 +119,7 @@ app.post('/register', async (req, res) => {
     }
 })
 
+// Apointment
 app.post('/appointment', async (req, res) => {
     try{
         //Create a new Appointment using the 'req.body' data
